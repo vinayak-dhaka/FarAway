@@ -37,6 +37,11 @@ export default function AiForm({ onAddAiItems }) {
       let data = await res.json();
 
       onAddAiItems(data);
+      
+       window.scrollTo({
+      top: 0,
+      behavior: "smooth", 
+    });
     } catch (err) {
       console.error(err);
       alert("Failed to connect to AI backend");
