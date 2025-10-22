@@ -26,7 +26,7 @@ export default function AiForm({ onAddAiItems }) {
       setLoading(true);
       setGenerating(true);
       const res = await fetch(
-        "http://faraway.ap-south-1.elasticbeanstalk.com/api/openai/generate-items",
+        "https://d3a8548erzxcz9.cloudfront.net/api/openai/generate-items",
         {
           method: "POST",
           headers: { "Content-Type": "application/json" },
