@@ -9,8 +9,8 @@ User can add custom items also using manual configurations .
 Link https://faraaway.netlify.app/
 
 ### Tech Stack 
-- **Frontend:** React.js Hosted on Netlify
-- **Backend:** Spring Boot with Spring AI Hosted on AWS
+- **Frontend:** React.js ( Hosted on Netlify )
+- **Backend:** Spring Boot with Spring AI ( Hosted on AWS )
 - **AI Model:** OpenAI API via Spring AI (custom controller created to handle requests)
 
 ### Features 
