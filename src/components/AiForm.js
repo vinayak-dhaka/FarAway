@@ -57,12 +57,12 @@ export default function AiForm({ onAddAiItems }) {
       style={{
         backgroundColor: "#000000",
         color: "white",
-        paddingTop: "130px",
+        paddingTop: "clamp(3rem, 10vw, 130px)",
         display: "block",
-        paddingBottom: "130px",
+        paddingBottom: "clamp(3rem, 10vw, 130px)",
       }}
     >
-      <h3 style={{ textAlign: "center", paddingBottom: "55px" }}>
+      <h3 style={{ textAlign: "center", paddingBottom: "clamp(2rem, 6vw, 55px)" }}>
         Let AI help you to add items for your next trip
       </h3>
 
@@ -71,9 +71,9 @@ export default function AiForm({ onAddAiItems }) {
           display: "flex",
           gap: "10px",
           marginTop: "10px",
-          flexWrap: "wrap",
+         flexWrap: "wrap",
           justifyContent: "center",
-          paddingLeft: "20px",
+          padding: "0 1rem",
         }}
       >
         <input
