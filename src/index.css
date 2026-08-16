@@ -28,12 +28,13 @@ h1 {
   text-align: center;
   background-color: #f4a226;
   font-family: "Monoton";
-  font-size: clamp(3.2rem, 12vw, 8rem);
+  font-size: clamp(2.4rem, 10vw, 8rem);
   text-transform: uppercase;
   font-weight: 400;
-  word-spacing: clamp(6px, 3vw, 30px);
+  white-space: nowrap;
+  word-spacing: clamp(4px, 2vw, 30px);
   letter-spacing: -5px;
-  padding: 2.4rem 1.6rem;
+  padding: 2.4rem 1rem;
 }
 
 .add-form {
